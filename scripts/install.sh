@@ -40,7 +40,7 @@ apply_ingress() {
     kubectl apply -f aks-ingress.yaml
 }
 
-#apply_apps
 apply_http_application_routing_addon
-#apply_ingress
+apply_apps
+# apply_ingress
 
